@@ -6,7 +6,7 @@ public class AB {
 		int A,B;
 		//System.out.println("A는?");
 		A = sc.nextInt();
-		//System.out.println("B는?"); 수정
+		//System.out.println("B는?");
 		B = sc.nextInt();
 		System.out.println(A+B);
 
