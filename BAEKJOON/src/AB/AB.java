@@ -1,3 +1,4 @@
+package AB;
 import java.util.*;
 public class AB {
 	public static void main(String[] args) {
