@@ -1,6 +1,5 @@
 package IF;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class if5 {
@@ -18,11 +17,10 @@ public class if5 {
 		3개 주사위의 나온 눈이 주어질 때, 상금을 계산하는 프로그램을 작성 하시오.
 		*/
 		
-		Random r = new Random();
-		int f = r.nextInt(6)+1;
-		int s =r.nextInt(6)+1;
-		int t = r.nextInt(6)+1;
-		System.out.println(f +" "+s +" " +t);
+		Scanner sc = new Scanner(System.in);
+		int f = sc.nextInt();
+		int s =sc.nextInt();
+		int t = sc.nextInt();
 		int money;
 		
 		if(f==s && f==t) {
